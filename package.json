@@ -1,0 +1,35 @@
+{
+  "name": "wingbuddy-backend",
+  "version": "1.0.0",
+  "description": "Backend API for WingBuddy - Event-based social matching app",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seeders/seed.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "wingbuddy",
+    "api",
+    "express",
+    "mongodb",
+    "social",
+    "events"
+  ],
+  "author": "WingBuddy Team",
+  "license": "MIT"
+}
